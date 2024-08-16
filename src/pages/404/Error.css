@@ -1,0 +1,24 @@
+.page-404 {
+    padding: 40px 0;
+    /* background: white; */
+    font-family: 'Poppins';
+}
+
+.page-404 img {
+    width: 100%;
+}
+
+.four-zero-four-bg {
+    background: url('../../assets/images/error-image.gif');
+    height: 500px;
+    width: 600px;
+    background-position: center;
+    margin-left: 3rem;
+}
+
+.four-zero-four-bg h1 {
+    font-size: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

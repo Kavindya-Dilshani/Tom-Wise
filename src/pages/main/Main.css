@@ -1,0 +1,11 @@
+.main-logo img {
+    height: 52vh;
+}
+
+
+@media screen and (max-width:850px) {
+    .main-logo img {
+        height: 42vh;
+        margin-top: 5rem;
+    }
+}

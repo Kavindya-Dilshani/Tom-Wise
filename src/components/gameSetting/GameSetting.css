@@ -1,0 +1,168 @@
+.gameSetting {
+    border-width: 15px;
+    border-color: #CA3433;
+    border-style: solid;
+    border-radius: 70px;
+    box-sizing: border-box;
+}
+
+.gameSetting-container {
+    border-width: 10px;
+    border-color: #800000;
+    background-color: #800000;
+    border-style: solid;
+    width: 520px;
+    height: 521px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.gameSetting-title {
+    border-width: 10px;
+    border-color: #FFBF01;
+    border-style: solid;
+    border-radius: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 37.42%;
+    right: 32.81%;
+    top: 6.81%;
+    background: #FFBF01;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    width: 400px;
+    height: 70px;
+}
+
+.gameSetting-text {
+    position: absolute;
+    left: 5px;
+    right: 33.44%;
+    top: 0.5%;
+    bottom: 84.72%;
+    background: #DB2439;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    width: 370px;
+    height: 50px;
+}
+
+.gameSetting-text h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    color: #FFBF01;
+}
+
+
+.LButton .LBtn {
+    padding: 1rem 1rem 1rem 1rem;
+    border: none;
+    border-radius: 40px;
+    font-weight: 700px;
+    font-size: 25px;
+    font-family: 'Lilita One';
+    background-color: #519A2E;
+    color: #ffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 230px;
+    height: 68px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    left: 43.21%;
+    top: 23.91%;
+}
+
+.hints .HBtn {
+    border: none;
+    border-radius: 40px;
+    font-weight: 700px;
+    font-size: 25px;
+    font-family: 'Lilita One';
+    background-color: #519A2E;
+    color: #ffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 230px;
+    height: 68px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    left: 43.21%;
+    top: 37.91%;
+}
+
+.funFacts .FBtn {
+    border: none;
+    border-radius: 40px;
+    font-weight: 700px;
+    font-size: 25px;
+    font-family: 'Lilita One';
+    background-color: #519A2E;
+    color: #ffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 230px;
+    height: 68px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    left: 43.21%;
+    top: 50.91%;
+}
+
+.continue .CBtn1 {
+    padding: 1rem 1rem 1rem 1rem;
+    border: none;
+    border-radius: 40px;
+    font-weight: 700px;
+    font-size: 25px;
+    font-family: 'Lilita One';
+    background-color: #519A2E;
+    color: #ffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 230px;
+    height: 68px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    left: 43.21%;
+    top: 62.91%;
+
+}
+
+.end .EBtn2 {
+    border: none;
+    border-radius: 40px;
+    font-weight: 700px;
+    font-family: 'Lilita One';
+    background-color: #519A2E;
+    color: #ffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 230px;
+    height: 68px;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    left: 43.21%;
+    top: 75.91%;
+}
+
+.gameSetting-close img {
+    position: absolute;
+    max-width: 100px;
+    height: 70px;
+    left: 990px;
+    top: 120px;
+    cursor: pointer;
+}

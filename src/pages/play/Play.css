@@ -1,0 +1,45 @@
+.main-logo img {
+    height: 52vh;
+}
+
+.play-button .playBtn {
+
+    width: 400px;
+    height: 140px;
+    left: 550px;
+    top: 500px;
+    background: #519A2E;
+    border-radius: 120px;
+    font-weight: 700px;
+    font-family: "Kavoon", serif;
+    color: #ffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    letter-spacing: 0.2px;
+    border: none;
+    font-size: 50px;
+}
+
+@media screen and (max-width:850px) {
+    .main-logo img {
+        height: 42vh;
+        margin-top: 5rem;
+    }
+
+    .play-button .playBtn {
+        width: 300px;
+        height: 100px;
+        left: 100px;
+        top: 500px;
+        background: #519A2E;
+        border-radius: 120px;
+        font-weight: 700px;
+        font-family: "Kavoon", serif;
+        color: #ffff;
+        box-sizing: border-box;
+        cursor: pointer;
+        letter-spacing: 0.2px;
+        border: none;
+        font-size: 40px;
+    }
+}

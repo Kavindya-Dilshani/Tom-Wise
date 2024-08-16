@@ -1,0 +1,220 @@
+ .quiz-main {
+     border-width: 15px;
+     border-color: #CA3433;
+     border-style: solid;
+     border-radius: 70px;
+     box-sizing: border-box;
+ }
+
+ .quiz-container {
+     border-width: 10px;
+     border-color: #800000;
+     background-color: #800000;
+     border-style: solid;
+     width: 1000px;
+     height: 521px;
+     border-radius: 50px;
+     box-sizing: border-box;
+ }
+
+ .question-box-container {
+     height: 65%;
+ }
+
+ .question-box {
+     border-width: 10px;
+     border-color: #5F1303;
+     background-color: #5F1303;
+     border-style: solid;
+     width: 80%;
+     height: 100%;
+     border-radius: 20px;
+     box-sizing: border-box;
+     /* display: flex; */
+     /* justify-content: center; */
+     /* align-items: center; */
+     /* position: fixed; */
+     /* top: 50%;
+     left: 50%;*/
+     /* transform: translate(-50%, -50%); */
+ }
+
+ .question-box img {
+     height: 100%;
+ }
+
+ .game-setting img {
+     /* position: fixed; */
+     max-width: 48px;
+     height: auto;
+     left: 1105px;
+     top: 110px;
+     cursor: pointer;
+ }
+
+ .questions img {
+     /* position: fixed; */
+     max-width: 640px;
+     height: auto;
+     left: 460px;
+     top: 172px;
+ }
+
+ .questions .index {
+     font-size: 21px;
+     left: 350px;
+     top: 550px;
+     /* position: absolute; */
+     color: #F5EAEA;
+     text-align: center;
+     font-family: 'Lilita One';
+     font-style: normal;
+     font-weight: 400;
+ }
+
+ .question-input input {
+     /* position: absolute; */
+     border: none;
+     border-radius: 40px;
+     box-sizing: border-box;
+     height: 50px;
+     width: 300.41px;
+     left: 591px;
+     top: 540px;
+     background-color: #F5EAEA;
+     text-align: center;
+     font-family: 'Kavoon';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 15px;
+ }
+
+ .question-button button {
+     /* position: absolute; */
+     width: 174px;
+     height: 56px;
+     left: 1000px;
+     top: 540px;
+     background: #519A2E;
+     border: none;
+     border-radius: 60px;
+     text-align: center;
+     font-family: 'Kavoon';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 25px;
+     line-height: 40px;
+     color: #F5EAEA;
+ }
+
+ .alert {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -10%) !important;
+     align-items: center;
+ }
+
+ /* @media screen and (max-width:850px) {
+     .quiz-main {
+         border-width: 15px;
+         border-color: #CA3433;
+         border-style: solid;
+         border-radius: 70px;
+         box-sizing: border-box;
+     }
+
+     .quiz-container {
+         border-width: 10px;
+         border-color: #800000;
+         background-color: #800000;
+         border-style: solid;
+         width: 400px;
+         height: 521px;
+         border-radius: 50px;
+         box-sizing: border-box;
+     }
+
+     .question-box {
+         border-width: 10px;
+         border-color: #5F1303;
+         background-color: #5F1303;
+         border-style: solid;
+         width: 320px;
+         height: 351px;
+         border-radius: 20px;
+         box-sizing: border-box;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: fixed;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+     }
+
+     .game-setting img {
+         position: fixed;
+         max-width: 48px;
+         height: auto;
+         left: 1105px;
+         top: 110px;
+         cursor: pointer;
+     }
+
+     .questions img {
+         position: fixed;
+         max-width: 440px;
+         height: auto;
+         left: 360px;
+         top: 172px;
+     }
+
+     .questions .index {
+         font-size: 21px;
+         left: 350px;
+         top: 550px;
+         position: absolute;
+         color: #F5EAEA;
+         text-align: center;
+         font-family: 'Lilita One';
+         font-style: normal;
+         font-weight: 400;
+     }
+
+     .question-input input {
+         position: absolute;
+         border: none;
+         border-radius: 40px;
+         box-sizing: border-box;
+         height: 50px;
+         width: 300.41px;
+         left: 591px;
+         top: 540px;
+         background-color: #F5EAEA;
+         text-align: center;
+         font-family: 'Kavoon';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 15px;
+     }
+
+     .question-button button {
+         position: absolute;
+         width: 174px;
+         height: 56px;
+         left: 1000px;
+         top: 540px;
+         background: #519A2E;
+         border: none;
+         border-radius: 60px;
+         text-align: center;
+         font-family: 'Kavoon';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 25px;
+         line-height: 40px;
+         color: #F5EAEA;
+     }
+
+ } */

@@ -1,0 +1,132 @@
+ .leaderboard {
+     border-width: 15px;
+     border-color: #CA3433;
+     border-style: solid;
+     border-radius: 70px;
+     box-sizing: border-box;
+ }
+
+ .leaderboard-container {
+     border-width: 10px;
+     border-color: #800000;
+     background-color: #800000;
+     border-style: solid;
+     width: 520px;
+     height: 521px;
+     border-radius: 50px;
+     box-sizing: border-box;
+ }
+
+ .leaderboard-title {
+     border-width: 10px;
+     border-color: #FFBF01;
+     border-style: solid;
+     border-radius: 50px;
+     box-sizing: border-box;
+     position: absolute;
+     left: 37.42%;
+     right: 32.81%;
+     top: 6.81%;
+     background: #FFBF01;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 60px;
+     width: 400px;
+     height: 70px;
+ }
+
+ .leaderboard-text {
+     position: absolute;
+     left: 5px;
+     right: 33.44%;
+     top: 0.5%;
+     bottom: 84.72%;
+     background: #DB2439;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 60px;
+     width: 370px;
+     height: 50px;
+ }
+
+ .leaderboard-items {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 15px;
+     padding: 12px;
+     box-sizing: border-box;
+     border-radius: 20px;
+     margin-top: 30px;
+
+ }
+
+ .leaderboard-text h2 {
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     font-family: 'Irish Grover';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 50px;
+     line-height: 55px;
+     color: #FFBF01;
+ }
+
+ .leaderboard-items:nth-child(odd) {
+     background-color: #C7C73B;
+ }
+
+ .leaderboard-items:nth-child(even) {
+     background-color: #FDFBE7;
+ }
+
+
+
+ .leaderboard-image img {
+     width: 40px;
+     height: auto;
+     margin-right: 17px;
+ }
+
+
+ .leaderboard-score {
+     box-sizing: border-box;
+     border-radius: 4px;
+     background-color: #800000;
+     width: 70px;
+     height: 30px;
+     color: #FFBF01;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     padding: 2px;
+
+ }
+
+ .leaderboard-name,
+ .leaderboard-score {
+     display: inline-block;
+     margin-right: 20px;
+ }
+
+ .leaderboard-name h2,
+ .leaderboard-score h2 {
+     margin: 0;
+     font-size: 21px;
+     font-family: 'Lilita One';
+     font-style: normal;
+     font-weight: 400;
+     justify-content: center;
+     left: 710px;
+     top: 190px;
+     display: flex;
+ }
+
+ .leaderboard-close img {
+     position: absolute;
+     left: 1000px;
+     top: 110px;
+     cursor: pointer;
+     max-width: 60px;
+     height: auto;
+     margin-left: 10px;
+ }

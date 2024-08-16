@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Kavoon&family=Lilita+One&display=swap');
+
+* body {
+    background-image: url("./assets/images/mainPage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

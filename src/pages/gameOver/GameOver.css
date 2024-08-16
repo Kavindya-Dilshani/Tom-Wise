@@ -1,0 +1,160 @@
+.gameOver {
+    border-width: 15px;
+    border-color: #CA3433;
+    border-style: solid;
+    border-radius: 70px;
+    box-sizing: border-box;
+}
+
+.gameOver-container {
+    border-width: 10px;
+    border-color: #800000;
+    background-color: #800000;
+    border-style: solid;
+    width: 420px;
+    height: 521px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.gameOver-title {
+    border-width: 10px;
+    border-color: #FFBF01;
+    border-style: solid;
+    border-radius: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 38.42%;
+    right: 32.81%;
+    top: 6.81%;
+    background: #FFBF01;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    width: 350px;
+    height: 70px;
+}
+
+.gameOver-text {
+    position: absolute;
+    left: 5px;
+    right: 33.44%;
+    top: 0.5%;
+    bottom: 84.72%;
+    background: #DB2439;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    width: 320px;
+    height: 50px;
+}
+
+.gameOver-box {
+    border-width: 10px;
+    border-color: #5F1303;
+    background-color: #5F1303;
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.gameOver h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55px;
+    color: #FFBF01;
+}
+
+.gameOver-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.gameOver-images img {
+    width: 300px;
+    height: auto;
+}
+
+
+.gameOver-name h1 {
+    position: absolute;
+    left: 45.05%;
+    top: 42.44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 87px;
+    text-align: center;
+    color: #FFF0F0;
+}
+
+.gameOver-score h2 {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 73px;
+    color: #FFFFFF;
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.gameOver-score h1 {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 110px;
+    color: #FFBF01;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gameOver-button button {
+    background: #519A2E;
+    border-radius: 50px;
+    width: 194px;
+    height: 66px;
+    border-radius: 60px;
+    text-align: center;
+    border: none;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
